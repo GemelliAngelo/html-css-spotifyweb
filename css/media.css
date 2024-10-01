@@ -28,6 +28,24 @@
     font-size: 0.8rem;
   }
 
+  /* PLAYLIST */
+
+  .playlist-container {
+    display: block;
+  }
+
+  .playlist-container > div {
+    margin: 10px 0;
+  }
+
+  .fa-plus {
+    color: black;
+    background-color: grey;
+    padding: 10px;
+  }
+
+  /* USER */
+
   .user .d-none {
     display: inline;
   }

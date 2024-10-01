@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
 
+    <!-- FONTS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/media.css" />
@@ -13,6 +22,8 @@
     <main>
       <div class="container">
         <!-- SIDE-BAR -->
+
+        <!-- CONTROLLER -->
         <section class="side-bar">
           <div class="controller">
             <div class="logo-container">
@@ -51,8 +62,27 @@
                 </li>
               </ul>
             </nav>
-            <div class="playlist-container"></div>
+
+            <!-- PLAYLIST -->
+            <div class="d-none playlist-container">
+              <strong>PLAYLIST</strong>
+              <div>
+                <i class="fa-sharp fa-solid fa-plus"></i>
+                <span>Crea Playlist</span>
+              </div>
+              <ul>
+                <li class="list-item">Prima Playlist</li>
+                <li class="list-item">Nome Playlist</li>
+                <li class="list-item">Nome Playlist</li>
+                <li class="list-item">Nome Playlist</li>
+                <li class="list-item">Nome Playlist</li>
+                <li class="list-item">Nome Playlist</li>
+                <li class="list-item">Ultima Playlist</li>
+              </ul>
+            </div>
           </div>
+
+          <!-- USER -->
           <div class="user">
             <div class="download">
               <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
