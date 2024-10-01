@@ -44,6 +44,10 @@
     padding: 10px;
   }
 
+  .playlist-container .list-item {
+    margin: 10px 0;
+  }
+
   /* USER */
 
   .user .d-none {
