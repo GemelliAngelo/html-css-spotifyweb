@@ -1,0 +1,42 @@
+/* MEDIAQUERY */
+
+@media screen and (min-width: 532px) {
+  /* SIDE-BAR */
+  .side-bar {
+    width: 200px;
+  }
+
+  .logo-container {
+    padding: 10px 0;
+  }
+
+  [alt="page-logo-big"] {
+    display: block;
+    width: 70%;
+  }
+
+  [alt="page-logo-small"] {
+    display: none;
+  }
+
+  .list-item {
+    text-align: left;
+  }
+
+  .item-name {
+    display: inline;
+    font-size: 0.8rem;
+  }
+
+  .user .d-none {
+    display: inline;
+  }
+
+  .user {
+    text-align: left;
+  }
+
+  .user-profile {
+    border-top: 1px solid grey;
+  }
+}
