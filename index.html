@@ -101,7 +101,7 @@
               </ul>
             </nav>
             <section class="recently-played">
-              <span class="recently-title">Recently played</span>
+              <span class="section-title">Recently played</span>
               <!-- CARD -->
               <div class="card-container">
                 <div class="card">
@@ -109,8 +109,8 @@
                     <img src="./img/metal_lifting.jpg" alt="heavy-metal" />
                   </div>
                   <div class="card-description">
-                    <span class="card-title"></span>
-                    <span class="card-subtitle"></span>
+                    <span class="card-title">Heavy Metal</span>
+                    <span class="card-subtitle">Subtitle</span>
                   </div>
                 </div>
                 <div class="card">
@@ -118,8 +118,13 @@
                     <img src="./img/stranger.jpeg" alt="stranger-things" />
                   </div>
                   <div class="card-description">
-                    <span class="card-title"></span>
-                    <span class="card-subtitle"></span>
+                    <span class="card-title"
+                      >Stranger Things, Vol. 1 (a Netflix Original Series
+                      Soundtrack)</span
+                    >
+                    <span class="card-subtitle"
+                      >Kyle Dixon & Michael Stein</span
+                    >
                   </div>
                 </div>
                 <div class="card">
@@ -127,8 +132,8 @@
                     <img src="./img/aquietplace.jpeg" alt="quiet-place" />
                   </div>
                   <div class="card-description">
-                    <span class="card-title"></span>
-                    <span class="card-subtitle"></span>
+                    <span class="card-title">A quiet place</span>
+                    <span class="card-subtitle">Subtitle</span>
                   </div>
                 </div>
                 <div class="card">
@@ -136,8 +141,8 @@
                     <img src="./img/split.jpeg" alt="split" />
                   </div>
                   <div class="card-description">
-                    <span class="card-title"></span>
-                    <span class="card-subtitle"></span>
+                    <span class="card-title">Split</span>
+                    <span class="card-subtitle">Subtitle</span>
                   </div>
                 </div>
                 <div class="card">
@@ -145,8 +150,8 @@
                     <img src="./img/cure.jpeg" alt="wellness" />
                   </div>
                   <div class="card-description">
-                    <span class="card-title"></span>
-                    <span class="card-subtitle"></span>
+                    <span class="card-title">A cure for wellness</span>
+                    <span class="card-subtitle">Subtitle</span>
                   </div>
                 </div>
                 <div class="card">
@@ -154,8 +159,52 @@
                     <img src="./img/sinister.jpeg" alt="sinister" />
                   </div>
                   <div class="card-description">
-                    <span class="card-title"></span>
-                    <span class="card-subtitle"></span>
+                    <span class="card-title">Sinister</span>
+                    <span class="card-subtitle">Subtitle</span>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="for-user">
+              <span class="section-title">Creato per John Doe</span>
+              <span class="section-subtitle">
+                Piu ascolti, più accurati saranno i suggerimenti.
+              </span>
+
+              <div class="card-container">
+                <div class="card">
+                  <div class="card-cover">
+                    <img src="./img/radar.jpeg" alt="radar" />
+                  </div>
+                  <div class="card-description">
+                    <span class="card-title">Release Radar</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-cover">
+                    <img src="./img/mixdaily.jpeg" alt="daily-mix" />
+                  </div>
+                  <div class="card-description">
+                    <span class="card-title">Daily Mix 1</span>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="popular-artist">
+              <span class="section-title">Artisti più popolari</span>
+              <span class="section-subtitle">
+                Piu ascolti, più accurati saranno i suggerimenti.
+              </span>
+
+              <div class="card-container">
+                <div class="card">
+                  <div class="card-cover">
+                    <img src="./img/youg.jpeg" alt="youg" />
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-cover">
+                    <img src="./img/einaudi.jpeg" alt="einaudi" />
                   </div>
                 </div>
               </div>
@@ -165,7 +214,39 @@
       </div>
 
       <!-- PLAYER -->
-      <section class="player"></section>
+      <section class="player">
+        <!-- MINI CARD -->
+        <div class="mini-card">
+          <div class="song-data">
+            <img src="./img/sinister.jpeg" alt="sinister" />
+            <div class="song-info">
+              <span class="album">Sinister</span>
+              <span class="song-name">Brano Nome</span>
+            </div>
+          </div>
+          <div class="song-save">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-folder"></i>
+          </div>
+        </div>
+
+        <!-- PLAYER TIME -->
+        <div class="player-time">
+          <div class="player-controller">
+            <i class="fa-solid fa-shuffle"></i>
+            <i class="fa-solid fa-backward-step"></i>
+            <i class="fa-regular fa-circle-play"></i>
+            <i class="fa-solid fa-forward-step"></i>
+            <i class="fa-solid fa-arrow-rotate-right"></i>
+          </div>
+          <div class="progress-bar">
+            <div class="current-time"></div>
+          </div>
+        </div>
+
+        <!-- PLAYER SETTINGS -->
+        <div class="player-settings"></div>
+      </section>
     </main>
   </body>
 </html>

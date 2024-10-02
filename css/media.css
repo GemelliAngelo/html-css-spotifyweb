@@ -1,6 +1,6 @@
 /* MEDIAQUERY */
 
-@media screen and (min-width: 532px) {
+@media screen and (min-width: 482px) {
   /* SIDE-BAR */
   .side-bar {
     width: 200px;
@@ -65,5 +65,11 @@
 
   .user-profile {
     border-top: 1px solid grey;
+  }
+}
+
+@media screen and (min-width: 662px) {
+  .card {
+    max-width: 130px;
   }
 }
