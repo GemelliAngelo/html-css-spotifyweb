@@ -39,16 +39,14 @@ ul {
 
 /* SIDEBAR */
 
-/* CONTROLLER */
 .side-bar {
   width: 50px;
   max-height: calc(100vh - 100px);
   background-color: black;
-  flex-shrink: 0;
+  flex-shrink: 1;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   font-size: 0.7rem;
   font-weight: 600;
 }
@@ -77,6 +75,7 @@ ul {
 
 .user {
   text-align: center;
+  margin-top: auto;
 }
 
 .download svg {

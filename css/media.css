@@ -33,6 +33,7 @@
   .playlist-container {
     display: block;
     overflow-y: auto;
+    min-height: 100px;
   }
 
   .playlist-container > div {
