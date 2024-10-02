@@ -166,6 +166,12 @@ ul {
   flex-shrink: 1;
 }
 
+.card-title {
+}
+
+.card-subtitle {
+}
+
 /* PLAYER */
 
 .player {
