@@ -13,6 +13,7 @@ img {
 body {
   font-family: "Montserrat";
   overflow: hidden;
+  background-color: black;
 }
 
 /* UTILS */
@@ -407,6 +408,8 @@ li.categories-item:hover:after {
   transform: translate(-50%, -35%);
 }
 
+/* PLAYER SETTINGS */
+
 .player-settings {
   font-size: 0.9rem;
   display: flex;
@@ -419,6 +422,11 @@ li.categories-item:hover:after {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+.control-settings i:hover {
+  cursor: pointer;
+  color: white;
 }
 
 .volume-bar-container {
