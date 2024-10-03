@@ -56,6 +56,15 @@
     cursor: pointer;
   }
 
+  .add-button:hover {
+    color: white;
+  }
+
+  .add-button:hover .fa-plus {
+    background-color: white;
+    font-size: 0.9rem;
+  }
+
   .playlist-container .list-item {
     margin: 10px 0;
   }

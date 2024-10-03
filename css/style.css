@@ -137,7 +137,7 @@ ul {
 }
 
 .button:hover {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 /* MAIN BODY */
@@ -156,10 +156,27 @@ ul {
 }
 
 .categories-item {
+  position: relative;
   color: grey;
   font-size: 0.7rem;
   display: inline-block;
   margin: 10px;
+  cursor: pointer;
+}
+
+li.categories-item:hover {
+  color: white;
+}
+
+li.categories-item:hover:after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: lime;
+  position: absolute;
+  top: 120%;
+  right: 50%;
+  transform: translate(50%, 0);
 }
 
 .recently-played,
@@ -308,7 +325,7 @@ ul {
 }
 
 .progress-bar-container {
-  width: 40%;
+  width: 50%;
   min-width: 200px;
   display: flex;
   justify-content: space-between;
