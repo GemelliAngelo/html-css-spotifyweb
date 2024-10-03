@@ -22,6 +22,7 @@
   .item-name {
     display: inline-block;
     font-size: 0.8rem;
+    vertical-align: middle;
   }
 
   /* PLAYLIST */

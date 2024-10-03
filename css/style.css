@@ -63,6 +63,7 @@ ul {
 
 .list-item img {
   width: 20px;
+  vertical-align: middle;
 }
 
 /* USER */
@@ -88,6 +89,7 @@ ul {
 .user-profile {
   padding: 10px 0 0;
   display: flex;
+  align-items: center;
   gap: 5px;
 }
 
@@ -314,6 +316,7 @@ ul {
 .current-time {
   width: 15%;
   border: 2px solid white;
+  border-radius: 3px;
 }
 
 .progress-bar:hover .current-time {
