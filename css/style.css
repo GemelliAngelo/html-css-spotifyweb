@@ -90,6 +90,11 @@ ul {
   padding: 10px 0;
   display: flex;
   gap: 5px;
+  cursor: pointer;
+}
+
+.download:hover {
+  color: white;
 }
 
 .download img {
@@ -277,6 +282,11 @@ li.categories-item:hover:after {
   width: min-content;
 }
 
+.mini-card div *:hover {
+  color: white;
+  cursor: pointer;
+}
+
 .album {
   font-size: 0.7rem;
   font-weight: bold;
@@ -311,6 +321,11 @@ li.categories-item:hover:after {
   width: 100%;
   line-height: 1.8rem;
   text-align: center;
+}
+
+.player-controller i:hover {
+  color: white;
+  cursor: pointer;
 }
 
 .player-controller .fa-solid {
