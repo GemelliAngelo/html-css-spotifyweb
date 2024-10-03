@@ -29,7 +29,7 @@ ul {
 
 .d-none {
   display: none;
-  color: grey;
+  color: inherit;
 }
 
 /* SIDEBAR */
@@ -38,7 +38,7 @@ ul {
 }
 
 .side-bar {
-  width: 50px;
+  min-width: 50px;
   max-height: calc(100vh - 80px);
   background-color: black;
   flex-shrink: 1;
@@ -46,6 +46,7 @@ ul {
   flex-direction: column;
   font-size: 0.7rem;
   font-weight: 600;
+  color: grey;
 }
 
 .logo-container {
@@ -53,12 +54,21 @@ ul {
 }
 
 .side-nav-bar {
-  padding: 10px 10px;
+  padding: 10px 0;
 }
 
 .list-item {
-  padding: 5px 0;
+  padding: 5px 10px;
   text-align: center;
+  cursor: pointer;
+}
+
+.side-nav-bar .list-item:hover {
+  border-left: 1px solid lime;
+}
+
+.list-item:hover {
+  color: white;
 }
 
 .list-item img {
@@ -123,12 +133,18 @@ ul {
   border: 2px solid white;
   border-radius: 30px;
   font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  font-size: 1rem;
 }
 
 /* MAIN BODY */
 
 .main-body {
   width: 100%;
+  min-width: 435px;
   height: calc(100vh - 80px - 80px);
   background-color: #141922;
   overflow-y: auto;
@@ -213,9 +229,9 @@ ul {
 .player {
   width: 100%;
   height: 80px;
-  min-width: 400px;
+  min-width: 485px;
   background-color: #282828;
-  padding: 10px;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -339,8 +355,8 @@ ul {
   font-size: 0.9rem;
   display: flex;
   flex-direction: row;
-  gap: 5px;
-  min-width: 175px;
+  gap: 10px;
+  min-width: 130px;
 }
 
 .control-settings {
@@ -351,7 +367,7 @@ ul {
 
 .volume-bar-container {
   width: 60%;
-  min-width: 100px;
+  min-width: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -361,7 +377,7 @@ ul {
 .volume-bar {
   position: relative;
   background-color: grey;
-  width: 80%;
+  width: 100%;
   height: 4px;
   border-radius: 3px;
 }

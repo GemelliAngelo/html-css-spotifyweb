@@ -43,11 +43,17 @@
     padding: 0 10px;
   }
 
+  .playlist-add span:hover {
+    color: white;
+    cursor: pointer;
+  }
+
   .fa-plus {
     color: black;
     background-color: grey;
     padding: 10px;
     display: inline-block;
+    cursor: pointer;
   }
 
   .playlist-container .list-item {
@@ -75,6 +81,10 @@
   }
 
   /* PLAYER */
+
+  .player {
+    padding: 10px;
+  }
 
   .song-data {
     min-width: 120px;
